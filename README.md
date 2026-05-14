@@ -9,14 +9,12 @@ El codigo de este repositorio es el de un "conenedor" básico escrito en el leng
 🏗️Instalar compilador de "Go":
 
 ```
-
 sudo apt update
 sudo apt install golang-go
 
 //Verificar
 $ go version
 go version go1.13.8 linux/amd64
-
 ```
 
 ⛏️Compilar <br>
@@ -26,16 +24,18 @@ go build -o contenedor main.go namespace.go
 ```
     
 🟢Forma de uso: <br>
-  
-  > Abra una ventana adicional donde revisara estado de procesos
-  > Ejecute primero el programa con el comando:
+
+Abra dos ventanas de terminal conectadas a su máquina virtual.
+
+:runner: En la primera ventana ejecutar el programa: 
+
 ```
 sudo ./contenedor
 ```
 
 🔎 Revisión: <br>
 
-> En la ventana donde ejecuto el comando ejecute el comando:
+> En la primera ventana donde esta ejecutando el contenedor:
 ```
 ps --forest aux
 ```
