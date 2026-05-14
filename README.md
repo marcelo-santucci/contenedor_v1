@@ -22,17 +22,25 @@ go version go1.13.8 linux/amd64
 ⛏️Compilar <br>
 
 ```
-go build -o contenedor main.go namespace.go <br>
+go build -o contenedor main.go namespace.go
 ```
     
 🟢Forma de uso: <br>
   
   > Abra una ventana adicional donde revisara estado de procesos
-  > Ejecute primero el programa con el comando: sudo ./contenedor
- 
+  > Ejecute primero el programa con el comando:
+```
+sudo ./contenedor
+```
+
 🔎 Revisión: <br>
 
-  > En la ventana donde ejecuto el comando ejecute el comando: ps --forest aux <br>
-  > En la segunda ventana ejecute el comando:  ps --forest aux | grep contenedor <br>
-
+> En la ventana donde ejecuto el comando ejecute el comando:
+```
+ps --forest aux
+```
+> En la segunda ventana ejecute el comando:
+```
+ps --forest aux | grep contenedor
+```
 ❓¿Que cosas puede apreciar con respecto de la información desplegada.
