@@ -1,4 +1,13 @@
-# Contenedores
+# Namespaces, cgroups y contenedores 
+
+
+## Uso de namespace y cgroup
+
+☑️ namespaces :arrow_right: encapsulan un recurso global y le dan a su proceso una vista propia privada del mismo
+
+☑️ cgroups :arrow_right: función del kernel que permite particionar y limitar los recursos del sistema que un proceso(s) puede usar.
+
+## Contenedores
 
 Un contenedor es básicamente un programa en ejecución que ya tiene todo lo necesario para ejecutar tu programa. 
 
