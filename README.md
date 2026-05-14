@@ -8,18 +8,22 @@ El codigo de este repositorio es el de un "conenedor" básico escrito en el leng
 
 🏗️Instalar compilador de "Go":
 
-```c
+```
 
 sudo apt update
 sudo apt install golang-go
 
 //Verificar
-go version
+$ go version
+go version go1.13.8 linux/amd64
 
 ```
 
 ⛏️Compilar <br>
-    👉🏼 go build -o contenedor main.go namespace.go <br>
+
+```
+go build -o contenedor main.go namespace.go <br>
+```
     
 🟢Forma de uso: <br>
   
